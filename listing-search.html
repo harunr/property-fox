@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Property Fox | Listing Search</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/selectric.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.selectric.js"></script>
+    <script type="text/javascript" src="scripts/common-scripts.js"></script>
+</head>
+
+<body>
+    <div class="main-wrap">
+        <!-- Begin header wrap
+           ======================= -->
+        <div class="header-wrap">
+                <div class="logo-wrap">
+                    <div class="main-logo"><a href="index.html"><img src="svgs/svg-logo-full.svg" alt=""></a></div>
+                    <div class="callto-action">
+                       <a href="tel:0876250369"><span class="desktop">087 625 0369</span></a>
+                    </div>
+                    <div class="nav-icon-wrap" id="nav-icon-wrap">
+                        <img src="svgs/svg-navigation-menu.svg" alt="" class="desktop nav-icon white">
+                        <img src="svgs/svg-navigation-menu-orange.svg" alt="" class="mobi nav-icon orange">
+                        <img src="svgs/svg-navigation-menu-close.svg" alt="" class="close-btn brown">
+                    </div>
+                </div>
+                <div class="navigation-wrap">
+                   <img src="svgs/svg-navigation-menu-close-white.svg" alt="" class="close-btn white">
+                    <div class="main-nav-wrap">
+                        <div class="main-nav">
+                            <ul>
+                                <li><a href="#">Properties For Sale</a></li>
+                                <li><a href="#">How We Work</a></li>
+                                <li><a href="#">What’s Included</a></li>
+                                <li><a href="#">How Much Can You Save</a></li>
+                                <li><a href="#">Refer a Friend</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                       <div class="login-link-wrap">
+                           <a href="#" class="orange-btn"><span>Get Started</span><span>Sell My Property</span></a>
+                           <a href="#" class="log-in">Log In</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End header wrap -->
+        
+        <!-- Begin main-content section
+            ================================ -->
+        <sectoin class="main-content-section listing-search-content">
+           <!-- Begin hero section
+           ======================= -->
+            <section class="hero-section" style="background-image:url(images/home-hero-banner.jpg);">
+                <div class="hero-content-info clear">
+                    <h2 class="desktop">Search Properties</h2>
+                    <h2 class="mobi">Property Search</h2>
+                    <div class="hero-input-wrap">
+                        <section class="list-menu-wrap">
+                            <form action="#" method="post">
+                                <div class="search-wrap">
+                                    <input type="text" value="Enter city, suburb or Web Ref">
+                                </div>
+                                <div class="search-feature-wrap">
+                                    <ul>
+                                        <li>
+                                            <span>Property Type</span>
+                                            <div class="input-field-wrap property-type">
+                                                <ul class="seacrh-feature input-field">
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-1">
+                                                        <label for="check-1">House</label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-2">
+                                                        <label for="check-2">Apartment / Flat</label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-3">
+                                                        <label for="check-3">Townhouse</label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-4">
+                                                        <label for="check-4">Vacant Land / Plot</label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-5">
+                                                        <label for="check-5">Farm</label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-6">
+                                                        <label for="check-6">Commercial </label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                    <li class="check-item">
+                                                        <input type="checkbox" name="" id="check-7">
+                                                        <label for="check-7">Industrial </label>
+                                                        <div class="check-box"></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <select class="styled-select">
+                                               <option value="velue-1">Min Price</option>
+                                               <option value="velue-1">R 100 000</option>
+                                               <option value="velue-2">R 150 000</option>
+                                               <option value="velue-3">R 200 000</option>
+                                               <option value="velue-4">R 250 000</option>
+                                           </select>
+                                        </li>
+                                        <li>
+                                            <select class="styled-select">
+                                               <option value="velue-1">Max Price</option>
+                                               <option value="velue-1">R 100 000</option>
+                                               <option value="velue-2">R 150 000</option>
+                                               <option value="velue-3">R 200 000</option>
+                                               <option value="velue-4">R 250 000</option>
+                                           </select>
+                                        </li>
+                                        <li>
+                                            <!--<span>Beds</span>-->
+                                            <select class="styled-select">
+                                               <option value="velue-1">Beds</option>
+                                               <option value="velue-1">2</option>
+                                               <option value="velue-2">3</option>
+                                               <option value="velue-3">4</option>
+                                               <option value="velue-4">5</option>
+                                           </select>
+                                        </li>
+                                        <li class="check-item desktop">
+                                            <input type="checkbox" name="" id="value-1">
+                                            <label for="value-1">Include Sold</label>
+                                            <div class="check-box"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sold-out-wrap mobi">
+                                    <div class="sold-out">
+                                        <dfn>Include Sold</dfn>
+                                        <label class="switch">
+                                            <input type="checkbox">
+                                            <span class="slider"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="search-wrap search-submit">
+                                    <input type="submit" value="Search">
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <!-- End hero section -->
+            <div class="get-started-wrap" id="get-started-wrap" >
+                <h4>Save with the smart way to sell your home</h4>
+                <a href="#">Get Started</a>
+            </div>
+        </sectoin>
+        <!-- End main content section -->
+        
+        <!-- Beginning Footer Section
+        ========================== -->
+        <section class="fotter-section">
+            <div class="footer-middle">
+                <div class="footer-inner clear">
+                    <div class="footer-widget">
+                        <span>DISCOVER</span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">How We Work</a></li>
+                            <li><a href="#">What’s Included</a></li>
+                            <li><a href="#">How Much Can You Save</a></li>
+                            <li><a href="#">Refer a Friend</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <ul>
+                            <li>&nbsp;</li>
+                            <li><a href="#">Sell My Property</a></li>
+                            <li><a href="#">Properties For Sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <span>PROPERTYFOX</span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <span class="desktop">CONTACT</span>
+                        <a href="mailto:info@propertyfox.co.za" class="desktop">info@propertyfox.co.za</a>
+                        <a href="tel:0876250369" class="desktop">087 625 0369</a>
+                        <div class="social-for-footer">
+                            <a href="https://twitter.com/PropertyFoxSA"><img src="svgs/svg-social-twitter-grey.svg" alt="" class="static-icon"><img src="svgs/svg-social-twitter-white.svg" alt="" class="hover-icon"></a>
+                            <a href="https://www.facebook.com/PropertyFoxSA/?ref=bookmarks "><img src="svgs/svg-social-facebook-grey.svg" alt="" class="static-icon"><img src="svgs/svg-social-facebook-white.svg" alt="" class="hover-icon"></a>
+                            <a href="https://www.youtube.com/watch?v=utaUCjJZKCc"><img src="svgs/svg-social-youtube-grey.svg" alt="" class="static-icon"><img src="svgs/svg-social-youtube-white.svg" alt="" class="hover-icon"></a>
+                            <a href="https://za.linkedin.com/company/property-fox "><img src="svgs/svg-social-linkedin-grey.svg" alt="" class="static-icon"><img src="svgs/svg-social-linkedin-white.svg" alt="" class="hover-icon"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-wrap footer-inner clear">
+                    <p>© 2017 PropertyFox. All rights reserved. <span class="privacy-info"><a href="#">Terms</a><a href="#">Privacy</a></span></p>
+                    <div class="let-us-talk">
+                        <div class="chat-room">
+                            <span>Let’s Talk!</span>
+                            <div class="chat-icon">
+                                <img src="images/chat-icon.png" alt="" class="desktop">
+                                <img src="images/chat-icon-color.png" alt="" class="mobi">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Footer Section
+        ========================== -->
+    </div>
+
+</body>
+
+</html>
